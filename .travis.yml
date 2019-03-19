@@ -1,0 +1,10 @@
+language: python
+pyton:
+  -"3.6"
+# command to run tests
+script:
+  - py.test teste.py
+after script:
+notifications:
+  recipients:
+    - roseane.silva@aluno.faculdadeimpacta.com.br
